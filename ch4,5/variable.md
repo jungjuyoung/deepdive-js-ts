@@ -38,6 +38,11 @@ const users: Array<Iuser> = [
   { id: 1, name: "Lee" },
   { id: 2, name: "Kim" },
 ];
+
+const users2: Iuser[] = [
+  { id: 1, name: "Lee" },
+  { id: 2, name: "Kim" },
+];
 ```
 
 # 04-06
@@ -256,8 +261,6 @@ var bar = (function () {})(function () {})();
 // TypeError: (intermediate value)(...) is not a function
 ```
 
-# 05-11
-
 ```javascript
 // 변수 선언문은 값으로 평가될 수 없으므로 표현식이 아니다.
 var x;
@@ -265,8 +268,6 @@ var x;
 // x = 1 + 2는 표현식이면서 완전한 문이기도 하다.
 x = 1 + 2;
 ```
-
-# 05-12
 
 ```javascript
 // 표현식이 아닌 문은 값처럼 사용할 수 없다.
@@ -282,8 +283,6 @@ var x;
 // 할당문은 그 자체가 표현식이지만 완전한 문이기도 하다. 즉, 할당문은 표현식인 문이다.
 x = 100;
 ```
-
-# 05-14
 
 ```javascript
 // 표현식인 문은 값처럼 사용할 수 있다
